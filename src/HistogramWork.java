@@ -38,10 +38,10 @@ public class HistogramWork {
 
                 HighGui.imshow("Src", src);
 
-//                HighGui.imshow("BGR HistImage", bgrHistImage);
-//                HighGui.imshow("Luminosity HistImage", luminosityHistImage);
-//                HighGui.moveWindow("BGR HistImage",src.width(), 0);
-//                HighGui.moveWindow("Luminosity HistImage",src.width(), 300);
+                HighGui.imshow("BGR HistImage", bgrHistImage);
+                HighGui.imshow("Luminosity HistImage", luminosityHistImage);
+                HighGui.moveWindow("BGR HistImage",src.width(), 0);
+                HighGui.moveWindow("Luminosity HistImage",src.width(), 300);
 
                 HighGui.imshow("Dst HistImage", dstHistImage);
                 HighGui.moveWindow("Dst HistImage",src.width(), 0);
